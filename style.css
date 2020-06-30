@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#name-highlight{
+    color: rgb(221, 42, 78);
+}
+.half-width{
+    float: left;
+    margin: 4%;
+    margin-left: 5%;
+    padding-left: 2%;
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(221, 42, 78), tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
