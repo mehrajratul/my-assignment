@@ -5,6 +5,15 @@ body{
 #name-highlight{
     color: rgb(221, 42, 78);
 }
+#modify{
+    margin-top: 10%;
+}
+#modify-two{
+    margin-top: 10%;
+}
+#modify-img{
+    margin-bottom: 10%;
+}
 .half-width{
     margin: 4%;
     float: left;
@@ -13,7 +22,7 @@ body{
    
 }
 .half-width img{
-    width: 450px;
+    width: 550px;
     margin-top: 0px;
 }
 .link-button{
@@ -26,7 +35,7 @@ body{
 }
 .top-banner{
     background-image: url("images/header-bg.png");
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +46,7 @@ section{
 }
 .biography-area{
     background-image: url("images/biography-bg.png");
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,14 +61,14 @@ p{
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .section-head{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px
 }
 .work-column img{
@@ -77,19 +86,20 @@ p{
 h4{
     text-align: center;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 h5{
     text-align: center;
     font-weight: 300;
     margin-left: 10px;
+    margin-top: 0%;
 }
 #quot{
     text-align: center;
     margin-left: 15px;
 }
 .mail-button{
-    background: linear-gradient(180deg,rgb(233, 23, 138),rgb(163, 27, 50));
+    background: linear-gradient(180deg,rgb(233, 23, 138),rgb(216, 78, 101));
     border-radius: 10px;
     border: 0px;
     color:aliceblue;
@@ -100,9 +110,13 @@ h5{
 #button-text-1{
     text-align: center;
     color: aliceblue;
-    font-family: cursive;
     font-size: medium;
 }
 footer p{
     text-align: center;
+}
+.section-head-two{
+    text-align: center;
+    margin-top: 50pxpx;
+    margin-bottom: 10px
 }
