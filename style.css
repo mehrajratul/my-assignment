@@ -13,8 +13,8 @@ body{
    
 }
 .half-width img{
-    width: 100%;
-    margin-top: 20px;
+    width: 450px;
+    margin-top: 0px;
 }
 .link-button{
     text-decoration: none;
@@ -37,14 +37,72 @@ section{
 }
 .biography-area{
     background-image: url("images/biography-bg.png");
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bio-text{
-    margin: 40px ;
     font-size: 40px;
-    padding: 10px;
     font-weight: 800;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.work-column img{
+    width: 400px;
+    float: left;
+    margin-left: 33.33px;
+}
+.ending{
+    background-image: url("images/footer-bg.png");
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+h5{
+    text-align: center;
+    font-weight: 300;
+    margin-left: 10px;
+}
+#quot{
+    text-align: center;
+    margin-left: 15px;
+}
+.mail-button{
+    background: linear-gradient(180deg,rgb(233, 23, 138),rgb(163, 27, 50));
+    border-radius: 10px;
+    border: 0px;
+    color:aliceblue;
+    padding:20px 150px;
+    margin-left: 450px;
+    text-align: center;
+}
+#button-text-1{
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: medium;
+}
+footer p{
+    text-align: center;
 }
